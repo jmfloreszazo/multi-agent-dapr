@@ -11,7 +11,7 @@ Based on: https://www.diagrid.io/blog/building-effective-dapr-agents
 
 ## Prerequisites
 
-- **Python 3.* (recommended: Python 3.10 or 3.11)
+- **Python 3.** (recommended: Python 3.10 or 3.11)
 - **pip** (Python package manager)
 - **python3.10-venv**
 - **Dapr CLI** ([Install instructions](https://docs.dapr.io/get-dapr/cli/))
