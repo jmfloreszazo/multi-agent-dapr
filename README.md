@@ -13,6 +13,7 @@ Based on: https://www.diagrid.io/blog/building-effective-dapr-agents
 
 - **Python 3.* (recommended: Python 3.10 or 3.11)
 - **pip** (Python package manager)
+- **python3.10-venv**
 - **Dapr CLI** ([Install instructions](https://docs.dapr.io/get-dapr/cli/))
 - **Docker** (for Dapr state store/pubsub components)
 - **Redis** (for Dapr state store/pubsub, can be run via Docker)
@@ -26,7 +27,7 @@ Based on: https://www.diagrid.io/blog/building-effective-dapr-agents
 > **If you are on Windows, please install and run everything inside Ubuntu (WSL) or another Linux environment.**
 
 ```bash
-cd agent-demos
+cd src
 python3 -m venv .venv
 source .venv/bin/activate
 dapr init
