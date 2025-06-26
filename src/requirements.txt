@@ -1,0 +1,10 @@
+Flask
+cloudevents==1.11.0
+dapr>=1.15.0
+dapr-agents>=0.5.0
+openai==1.75.0
+python-dotenv
+python-docx
+pandas
+PyPDF2
+openpyxl

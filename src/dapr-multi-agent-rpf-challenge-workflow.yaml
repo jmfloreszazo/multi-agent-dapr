@@ -1,0 +1,23 @@
+version: 1
+common:
+  resourcesPath: ./dapr-components/
+  logLevel: error
+apps:
+  - appID: customer
+    appDirPath: ./poc/customer
+    command: ["python3", "app.py"]
+
+  - appID: supplier
+    appDirPath: ./poc/supplier
+    command: ["python3", "app.py"]
+
+  - appID: workflow
+    appDirPath: ./poc/workflow
+    command: ["python3", "app.py"]
+    appPort: 8004
+
+  - appID: test
+    appDirPath: ./poc/test
+    command: ["python3", "app.py"]
+    appPort: 6004
+
