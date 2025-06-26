@@ -74,7 +74,7 @@ After the workflow completes `LLMOrchestrator_state.json`, you can use the `Huma
 **How to use it:**
 
 ```bash
-cd agent-demos/poc/humanresponse
+cd humanresponse
 python3 app.py conversation.md
 ```
 
